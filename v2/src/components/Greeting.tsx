@@ -47,14 +47,14 @@ const Greeting = ({ config }: GreetingProps) => {
       }}
     >
       <Layout>
-        <Title>결혼합니다</Title>
+        <Title>Welcome</Title>
         <SubTitle>
-          봄에 태어난 {config.bride.name}
+          co dau {config.bride.name}
           <br />
-          가을에 태어난 {config.groom.name}
+          chu re {config.groom.name}
           <br />
           <br />
-          관심사도, 가치관도 달랐던 두 사람
+          {/* 관심사도, 가치관도 달랐던 두 사람
           <br />
           사랑으로 닮은 꼴이 되어
           <br />
@@ -68,7 +68,7 @@ const Greeting = ({ config }: GreetingProps) => {
           <br />
           {config.groom.fatherName} · {config.groom.motherName}의 아들 {config.groom.name}
           <br />
-          {config.bride.fatherName} · {config.bride.motherName}의 딸 {config.bride.name}
+          {config.bride.fatherName} · {config.bride.motherName}의 딸 {config.bride.name} */}
         </SubTitle>
       </Layout>
     </section>
